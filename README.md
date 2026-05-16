@@ -1,19 +1,25 @@
-# devops-linux-project
+# Devops-linux-project
 
 
 
-Steps 1 : Create direcotries and folders using linux commands only
-![alt text](image.png)
+## Steps 1 : Create direcotries and folders using linux commands only
 
-Step 2 : Write the necessary codes in the Bash terminal
-![alt text](image-1.png)
+  ![alt text](image.png)
 
-Adding commands in Docker file
+## Step 2 : Write the necessary codes in the Bash terminal
+ - Create the flask application via linux command "nano"
 
-![alt text](image-2.png)
+  ![alt text](image-1.png)
 
-Create the docker file and build it 
+ - Adding commands in Docker file
 
-![alt text](image-3.png)
+  ![alt text](image-2.png)
 
+ - Create the docker file and build it 
+
+  ![alt text](image-3.png)
+
+## PHASE 1 COMPLETED 
+
+![alt text](image-4.png)
 
