@@ -14,7 +14,7 @@
 
 ## PHASE 1 COMPLETED 
 
-[text](https://github.com/users/IamHil/projects/2/views/1?pane=issue&itemId=186264066&issue=IamHil%7Cdevops-linux-project%7C1)
+[Link](https://github.com/users/IamHil/projects/2/views/1?pane=issue&itemId=186264066&issue=IamHil%7Cdevops-linux-project%7C1)
 
 ![alt text](image-4.png)
 
@@ -34,7 +34,7 @@
 
 ## PHASE 2 COMPLETED
 
-[text](https://github.com/users/IamHil/projects/2/views/1?pane=issue&itemId=186264639&issue=IamHil%7CIamHil%7C2)
+[Link](https://github.com/users/IamHil/projects/2/views/1?pane=issue&itemId=186264639&issue=IamHil%7CIamHil%7C2)
 
 ![alt text](image-5.png)
 
