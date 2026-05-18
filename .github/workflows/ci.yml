@@ -3,7 +3,7 @@ name: DevOps CI Pipeline
 on:
   push:
     branches:
-        - main
+      - main
 
 jobs:
   docker-build-test:
@@ -25,7 +25,13 @@ jobs:
       - name: Verify Running Containers
         run: docker ps
 
-      - name: Test Application
+      - name: Show Container Logs
+        run: docker compose logs
+
+      - name: Wait for Container
+        run: sleep 10
+
+      - name: Test App
         run: curl http://localhost:1212
 
       - name: Stop Containers
