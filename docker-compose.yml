@@ -5,4 +5,7 @@ services:
       dockerfile: docker/Dockerfile
     ports:
       - "1212:1212"
+    env_file:
+      - .env
+      
 
