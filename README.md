@@ -38,3 +38,40 @@
 
 ![alt text](image-5.png)
 
+# PHASE 3 and 7 Tasks
+
+✅ GitHub Actions
+✅ YAML workflows
+✅ Docker Compose
+✅ Automated tests
+✅ Automated builds
+✅ Container verification
+✅ CI debugging
+✅ Pipeline troubleshooting
+
+
+
+✅ Understand CI/CD basics
+✅ Create .github/workflows
+✅ Create ci.yml
+✅ Configure workflow trigger
+✅ Install dependencies in pipeline
+✅ Add Flask validation step
+✅ Add Docker build step
+✅ Test CI pipeline
+✅ Fix CI failures
+✅ Verify successful pipeline execution
+✅ Add status badge to README
+
+## PHASE 3 and 7 COMPLETED 
+
+[Phase 3](https://github.com/users/IamHil/projects/2/views/1?pane=issue&itemId=186264864&issue=IamHil%7CIamHil%7C3)
+
+[Phase 7](https://github.com/users/IamHil/projects/2/views/1?pane=issue&itemId=186265652&issue=IamHil%7CIamHil%7C7)
+
+![alt text](image-6.png)
+
+
+
+
+
