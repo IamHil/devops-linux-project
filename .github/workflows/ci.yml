@@ -13,6 +13,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Create .env file
+        run: |
+          echo "PORT=1212" >> .env
+
       - name: Setup Docker Buildx
         uses: docker/setup-buildx-action@v3
 
