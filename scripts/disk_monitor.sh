@@ -2,11 +2,10 @@
 
 THRESHOLD=80
 
-USAGE=$(df / | awk 'NR==2 {print $5}' | sed 's/%//')
+usage=$(df / | awk 'NR==2 {print $5}' | sed 's/%//')
 
-if [ "$USAGE" -gt "$THRESHOLD" ]; then
-    echo "$(date) : Disk usage is above threshold at ${USAGE}%" >> logs/disk.log
+if [ "$usage" -ge "$THRESHOLD" ]; then
+    echo "$(date) - WARNING: Disk usage is at ${usage}%" >> logs/disk.log
 else
-    echo "$(date) : Disk usage normal at ${USAGE}%" >> logs/disk.log
+    echo "$(date) - Disk usage is healthy at ${usage}%" >> logs/disk.log
 fi
-

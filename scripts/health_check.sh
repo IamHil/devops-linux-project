@@ -1,13 +1,11 @@
 #!/bin/bash
 
-echo "checking application health..."
+URL="http://localhost:1212"
 
-STATUS=$(curl -s http://localhost:1212)
+response=$(curl -s -o /dev/null -w "%{http_code}" $URL)
 
-if [[ $STATUS == *"Running"* ]]; then
-    echo "$(date) : Application is UP" >> logs/health.log
-    echo "Application is healthy"
+if [ $response -eq 200 ]; then
+    echo "$(date) - App is healthy" >> logs/health.log
 else
-    echo "$(date) : Application is DOWN" >> logs/health.log
-    echo "Application is not responding"
+    echo "$(date) - App is DOWN" >> logs/health.log
 fi
