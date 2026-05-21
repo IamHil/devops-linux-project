@@ -3,9 +3,21 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile
-    ports:
-      - "1212:1212"
+
+    expose:
+      - "1212"
+
     env_file:
       - .env
-      
 
+  nginx:
+    image: nginx:latest
+
+    ports:
+      - "8080:80"
+
+    volumes:
+      - ./nginx/conf/default.conf:/etc/nginx/conf.d/default.conf
+
+    depends_on:
+      - web
