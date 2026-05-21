@@ -36,7 +36,7 @@ jobs:
         run: sleep 10
 
       - name: Test App
-        run: curl http://localhost:1212
+        run: curl http://localhost:8080
 
       - name: Stop Containers
         run: docker compose down
