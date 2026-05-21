@@ -27,7 +27,7 @@ jobs:
         run: docker compose up -d
 
       - name: Verify Running Containers
-        run: docker ps
+        run: docker ps -a
 
       - name: Show Container Logs
         run: docker compose logs
