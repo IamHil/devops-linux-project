@@ -160,7 +160,7 @@ devops-linux-project/
 [Phase 5](https://github.com/users/IamHil/projects/2/views/1?pane=issue&itemId=186265652&issue=IamHil%7CIamHil%7C5)
 
 
-![alt text](image-7.png)
+![alt text](phase-7.png)
 
 ---
 
@@ -171,7 +171,7 @@ devops-linux-project/
 
 ## PHASE 6 COMPLETED
 
-![alt text](image-8.png)
+![alt text](phase-8.png)
 
 ---
 
@@ -183,7 +183,7 @@ devops-linux-project/
 
 ## PHASE 8 AND 9 COMPLETED
 
-![alt text](image-9.png)
+![alt text](phase-9.png)
 
 ---
 
